@@ -10,13 +10,32 @@
     <form id="form1" runat="server">
         <div>
             <p style="margin-left:10%">
-            <asp:Label ID="Label1" runat="server" Font-Bold="true" ForeColor="Orange" Font-Size="30px" Text="CU001"></asp:Label>
+            <asp:Label ID="Label1" runat="server" Font-Bold="true" ForeColor="Orange" Font-Size="30px" Text=""></asp:Label>
             </p>
             <p style="margin-left:10%">
-            <asp:Label ID="Label2" runat="server" Font-Bold="true" ForeColor="Orange" Font-Size="30px" Text="Adauga:"></asp:Label>
+            <asp:Label ID="Label2" runat="server" Font-Bold="true" ForeColor="Orange" Font-Size="30px" Text=""></asp:Label>
             </p>
             <p style="margin-left:10%">
-                <asp:Button ID="Button1" Font-Bold="true" Font-Size="20px"  runat="server" Text="Operatie" OnClick="OnClick" />
+            <asp:Label ID="Label3" runat="server" Font-Bold="true" ForeColor="Orange" Font-Size="30px" Text=""></asp:Label>
+            </p>
+            <p style="margin-left:10%">
+            <asp:Label ID="Label4" runat="server" Font-Bold="true" ForeColor="Orange" Font-Size="30px" Text=""></asp:Label>
+            </p>
+            <p style="margin-left:10%">
+            <asp:Label ID="Label5" runat="server" Font-Bold="true" ForeColor="Orange" Font-Size="30px" Text=""></asp:Label>
+            </p>
+            <p style="margin-left:10%">
+            <asp:Label ID="Label6" runat="server" Font-Bold="true" ForeColor="Orange" Font-Size="30px" Text=""></asp:Label>
+            </p>
+             <p style="margin-left:10%">
+            <asp:Label ID="Label7" runat="server" Font-Bold="true" ForeColor="Orange" Font-Size="30px" Text=""></asp:Label>
+            </p>
+             <p style="margin-left:10%">
+            <asp:Label ID="Label8" runat="server" Font-Bold="true" ForeColor="Orange" Font-Size="30px" Text=""></asp:Label>
+            </p>
+            
+            <p style="margin-left:10%">
+                <asp:Button ID="Button1" Font-Bold="true" Font-Size="20px"  runat="server" Text="Adauga Operatie" OnClick="OnClick" />
             </p>
             
         </div>

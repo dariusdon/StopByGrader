@@ -1535,6 +1535,6 @@ public partial class Curing2 : System.Web.UI.Page
     }
     protected void Refresh1(object sender, EventArgs e)
     {
-        Response.Redirect("Curing1.aspx");
+        Response.Redirect("Curing2.aspx");
     }
 }
