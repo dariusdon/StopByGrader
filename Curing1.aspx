@@ -15,16 +15,16 @@
                <asp:Label ID="Label1" Font-Size="38px" Font-Bold="true" ForeColor="Orange" runat="server" Text="Curing1"></asp:Label>
                  </p>
                 <br />
-            <asp:Button ID="Button1" BorderColor="White"  Font-Bold="true" Font-Size="30px" BackColor="Red" BorderWidth="5px" Width="225px" Height="75px" runat="server" Text="CU001" OnClick="unu" />
-            <asp:Button ID="Button2" BorderColor="White"  Font-Bold="true" Font-Size="30px" BackColor="Red" BorderWidth="5px" Width="225px" Height="75px" runat="server" Text="CU001" OnClick="doi" />
-            <asp:Button ID="Button3" BorderColor="White"  Font-Bold="true" Font-Size="30px" BackColor="Red" BorderWidth="5px" Width="225px" Height="75px" runat="server" Text="CU001" OnClick="trei"/>
-            <asp:Button ID="Button4" BorderColor="White"  Font-Bold="true" Font-Size="30px" BackColor="Red" BorderWidth="5px" Width="225px" Height="75px" runat="server" Text="CU001" OnClick="patru"/>
-            <asp:Button ID="Button5" BorderColor="White"  Font-Bold="true" Font-Size="30px" BackColor="Red" BorderWidth="5px" Width="225px" Height="75px" runat="server" Text="CU001" OnClick="cinci"/>
-            <asp:Button ID="Button6" BorderColor="White"  Font-Bold="true" Font-Size="30px" BackColor="Red" BorderWidth="5px" Width="225px" Height="75px" runat="server" Text="CU001" OnClick="sase"/>
-            <asp:Button ID="Button7" BorderColor="White"  Font-Bold="true" Font-Size="30px" BackColor="Red" BorderWidth="5px" Width="225px" Height="75px" runat="server" Text="CU001" OnClick="sapte"/>
-            <asp:Button ID="Button8" BorderColor="White"  Font-Bold="true" Font-Size="30px" BackColor="Red" BorderWidth="5px" Width="225px" Height="75px" runat="server" Text="CU001" OnClick="opt"/>
-            <asp:Button ID="Button9" BorderColor="White"  Font-Bold="true" Font-Size="30px" BackColor="Red" BorderWidth="5px" Width="225px" Height="75px" runat="server" Text="CU001" OnClick="noua"/>
-            <asp:Button ID="Button10" BorderColor="White"  Font-Bold="true" Font-Size="30px" BackColor="Red" BorderWidth="5px" Width="225px" Height="75px" runat="server" Text="CU001" OnClick="zece"/>
+            <asp:Button ID="Button1" BorderColor="White"  Font-Bold="true" Font-Size="30px" BackColor="Red" BorderWidth="5px" Width="225px" Height="75px" runat="server" Text="CU001" OnClick="b1" />
+            <asp:Button ID="Button2" BorderColor="White"  Font-Bold="true" Font-Size="30px" BackColor="Red" BorderWidth="5px" Width="225px" Height="75px" runat="server" Text="CU001" OnClick="b2" />
+            <asp:Button ID="Button3" BorderColor="White"  Font-Bold="true" Font-Size="30px" BackColor="Red" BorderWidth="5px" Width="225px" Height="75px" runat="server" Text="CU001" OnClick="b3"/>
+            <asp:Button ID="Button4" BorderColor="White"  Font-Bold="true" Font-Size="30px" BackColor="Red" BorderWidth="5px" Width="225px" Height="75px" runat="server" Text="CU001" OnClick="b4"/>
+            <asp:Button ID="Button5" BorderColor="White"  Font-Bold="true" Font-Size="30px" BackColor="Red" BorderWidth="5px" Width="225px" Height="75px" runat="server" Text="CU001" OnClick="b5"/>
+            <asp:Button ID="Button6" BorderColor="White"  Font-Bold="true" Font-Size="30px" BackColor="Red" BorderWidth="5px" Width="225px" Height="75px" runat="server" Text="CU001" OnClick="b6"/>
+            <asp:Button ID="Button7" BorderColor="White"  Font-Bold="true" Font-Size="30px" BackColor="Red" BorderWidth="5px" Width="225px" Height="75px" runat="server" Text="CU001" OnClick="b7"/>
+            <asp:Button ID="Button8" BorderColor="White"  Font-Bold="true" Font-Size="30px" BackColor="Red" BorderWidth="5px" Width="225px" Height="75px" runat="server" Text="CU001" OnClick="b8"/>
+            <asp:Button ID="Button9" BorderColor="White"  Font-Bold="true" Font-Size="30px" BackColor="Red" BorderWidth="5px" Width="225px" Height="75px" runat="server" Text="CU001" OnClick="b9"/>
+            <asp:Button ID="Button10" BorderColor="White"  Font-Bold="true" Font-Size="30px" BackColor="Red" BorderWidth="5px" Width="225px" Height="75px" runat="server" Text="CU001" OnClick="b10"/>
             <asp:Button ID="Button11" BorderColor="White"  Font-Bold="true" Font-Size="30px" BackColor="Red" BorderWidth="5px" Width="225px" Height="75px" runat="server" Text="CU001" />
             <asp:Button ID="Button12" BorderColor="White"  Font-Bold="true" Font-Size="30px" BackColor="Red" BorderWidth="5px" Width="225px" Height="75px" runat="server" Text="CU001" />
             <asp:Button ID="Button13" BorderColor="White"  Font-Bold="true" Font-Size="30px" BackColor="Red" BorderWidth="5px" Width="225px" Height="75px" runat="server" Text="CU001" />
