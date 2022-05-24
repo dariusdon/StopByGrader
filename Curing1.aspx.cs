@@ -24,6 +24,7 @@ public partial class Curing1 : System.Web.UI.Page
     protected void Page_Load(object sender, EventArgs e)
     {
         GetData();
+        getSchimb();
     }
     //functiile butoanelor
 
@@ -118,6 +119,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b12(object sender, EventArgs e)
     {
+        j = 11;
         Session["name"] = name12;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -125,6 +127,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b13(object sender, EventArgs e)
     {
+        j = 12;
         Session["name"] = name13;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -132,6 +135,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b14(object sender, EventArgs e)
     {
+        j = 13;
         Session["name"] = name14;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -139,6 +143,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b15(object sender, EventArgs e)
     {
+        j = 14;
         Session["name"] = name15;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -146,6 +151,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b16(object sender, EventArgs e)
     {
+        j = 15;
         Session["name"] = name16;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -153,6 +159,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b17(object sender, EventArgs e)
     {
+        j = 16;
         Session["name"] = name17;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -160,6 +167,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b18(object sender, EventArgs e)
     {
+        j = 17;
         Session["name"] = name18;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -167,6 +175,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b19(object sender, EventArgs e)
     {
+        j = 18;
         Session["name"] = name19;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -174,6 +183,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b20(object sender, EventArgs e)
     {
+        j = 19;
         Session["name"] = name20;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -181,6 +191,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b21(object sender, EventArgs e)
     {
+        j = 20;
         Session["name"] = name21;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -188,6 +199,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b22(object sender, EventArgs e)
     {
+        j = 21;
         Session["name"] = name22;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -195,6 +207,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b23(object sender, EventArgs e)
     {
+        j = 22;
         Session["name"] = name23;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -202,6 +215,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b24(object sender, EventArgs e)
     {
+        j = 23;
         Session["name"] = name24;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -209,6 +223,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b25(object sender, EventArgs e)
     {
+        j = 24;
         Session["name"] = name25;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -216,6 +231,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b26(object sender, EventArgs e)
     {
+        j = 25;
         Session["name"] = name26;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -223,6 +239,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b27(object sender, EventArgs e)
     {
+        j = 26;
         Session["name"] = name27;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -230,6 +247,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b28(object sender, EventArgs e)
     {
+        j = 27;
         Session["name"] = name28;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -237,6 +255,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b29(object sender, EventArgs e)
     {
+        j = 28;
         Session["name"] = name29;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -244,6 +263,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b30(object sender, EventArgs e)
     {
+        j = 29;
         Session["name"] = name30;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -251,6 +271,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b31(object sender, EventArgs e)
     {
+        j = 30;
         Session["name"] = name31;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -258,13 +279,23 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b32(object sender, EventArgs e)
     {
+        j = 31;
         Session["name"] = name32;
+        string url = "InfoPresa.aspx";
+        string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
+        ClientScript.RegisterStartupScript(this.GetType(), "script", s, true);
+    }
+    protected void b33(object sender, EventArgs e)
+    {
+        j = 32;
+        Session["name"] = name33;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
         ClientScript.RegisterStartupScript(this.GetType(), "script", s, true);
     }
     protected void b34(object sender, EventArgs e)
     {
+        j = 33;
         Session["name"] = name34;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -272,6 +303,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b35(object sender, EventArgs e)
     {
+        j = 34;
         Session["name"] = name35;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -279,6 +311,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b36(object sender, EventArgs e)
     {
+        j = 35;
         Session["name"] = name36;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -286,6 +319,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b37(object sender, EventArgs e)
     {
+        j = 36;
         Session["name"] = name37;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -293,6 +327,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b38(object sender, EventArgs e)
     {
+        j = 37;
         Session["name"] = name38;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -300,6 +335,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b39(object sender, EventArgs e)
     {
+        j = 38;
         Session["name"] = name39;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -307,6 +343,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b40(object sender, EventArgs e)
     {
+        j = 39;
         Session["name"] = name40;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -314,6 +351,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b41(object sender, EventArgs e)
     {
+        j = 40;
         Session["name"] = name41;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -321,6 +359,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b42(object sender, EventArgs e)
     {
+        j = 41;
         Session["name"] = name42;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -328,6 +367,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b43(object sender, EventArgs e)
     {
+        j = 42;
         Session["name"] = name43;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -335,6 +375,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b44(object sender, EventArgs e)
     {
+        j = 43;
         Session["name"] = name44;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -342,6 +383,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b45(object sender, EventArgs e)
     {
+        j = 44;
         Session["name"] = name45;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -349,6 +391,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b46(object sender, EventArgs e)
     {
+        j = 45;
         Session["name"] = name46;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -356,6 +399,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b47(object sender, EventArgs e)
     {
+        j = 46;
         Session["name"] = name47;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -363,6 +407,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b48(object sender, EventArgs e)
     {
+        j = 47;
         Session["name"] = name48;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -370,6 +415,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b49(object sender, EventArgs e)
     {
+        j = 48;
         Session["name"] = name1;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -377,6 +423,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b50(object sender, EventArgs e)
     {
+        j = 49;
         Session["name"] = name50;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -384,6 +431,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b51(object sender, EventArgs e)
     {
+        j = 50;
         Session["name"] = name1;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -391,6 +439,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b52(object sender, EventArgs e)
     {
+        j = 51;
         Session["name"] = name52;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -398,6 +447,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b53(object sender, EventArgs e)
     {
+        j = 52;
         Session["name"] = name53;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -405,6 +455,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b54(object sender, EventArgs e)
     {
+        j = 53;
         Session["name"] = name54;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -412,6 +463,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b55(object sender, EventArgs e)
     {
+        j = 54;
         Session["name"] = name55;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -419,6 +471,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b56(object sender, EventArgs e)
     {
+        j = 55;
         Session["name"] = name56;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -426,6 +479,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b57(object sender, EventArgs e)
     {
+        j = 56;
         Session["name"] = name57;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -433,6 +487,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b58(object sender, EventArgs e)
     {
+        j = 57;
         Session["name"] = name58;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -440,6 +495,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b59(object sender, EventArgs e)
     {
+        j = 58;
         Session["name"] = name59;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -447,6 +503,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b60(object sender, EventArgs e)
     {
+        j = 59;
         Session["name"] = name60;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -454,6 +511,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b61(object sender, EventArgs e)
     {
+        j = 60;
         Session["name"] = name1;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -461,6 +519,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b62(object sender, EventArgs e)
     {
+        j = 61;
         Session["name"] = name62;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -468,6 +527,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b63(object sender, EventArgs e)
     {
+        j = 62;
         Session["name"] = name63;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -475,6 +535,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b64(object sender, EventArgs e)
     {
+        j = 63;
         Session["name"] = name64;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -482,6 +543,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b65(object sender, EventArgs e)
     {
+        j = 64;
         Session["name"] = name65;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -489,6 +551,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b66(object sender, EventArgs e)
     {
+        j = 65;
         Session["name"] = name66;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -496,6 +559,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b67(object sender, EventArgs e)
     {
+        j = 66;
         Session["name"] = name67;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -503,6 +567,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b68(object sender, EventArgs e)
     {
+        j = 67;
         Session["name"] = name68;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -510,6 +575,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b69(object sender, EventArgs e)
     {
+        j = 68;
         Session["name"] = name69;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -517,6 +583,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b70(object sender, EventArgs e)
     {
+        j = 69;
         Session["name"] = name1;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -524,6 +591,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b71(object sender, EventArgs e)
     {
+        j = 70;
         Session["name"] = name71;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -531,6 +599,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b72(object sender, EventArgs e)
     {
+        j = 71;
         Session["name"] = name72;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -538,6 +607,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b73(object sender, EventArgs e)
     {
+        j = 72;
         Session["name"] = name73;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -545,6 +615,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b74(object sender, EventArgs e)
     {
+        j = 73;
         Session["name"] = name74;
         string url = "InfoPres.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -552,6 +623,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b75(object sender, EventArgs e)
     {
+        j = 74;
         Session["name"] = name75;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -559,6 +631,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b76(object sender, EventArgs e)
     {
+        j = 75;
         Session["name"] = name76;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -566,6 +639,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b77(object sender, EventArgs e)
     {
+        j = 76;
         Session["name"] = name77;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -573,6 +647,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b78(object sender, EventArgs e)
     {
+        j = 77;
         Session["name"] = name78;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -580,6 +655,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b79(object sender, EventArgs e)
     {
+        j = 78;
         Session["name"] = name79;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -587,6 +663,7 @@ public partial class Curing1 : System.Web.UI.Page
     }
     protected void b80(object sender, EventArgs e)
     {
+        j = 79;
         Session["name"] = name80;
         string url = "InfoPresa.aspx";
         string s = "window.open('" + url + "', 'popup_window', 'width=500,height=700,left=700,top=100,fullscreen=yes');";
@@ -606,7 +683,7 @@ public partial class Curing1 : System.Web.UI.Page
                 FROM [TITM09CGMDB02].[CGMSHistory].[dbo].[Area]
                 INNER JOIN [TITM09CGMDB02].[CGMSHistory].[dbo].WorkCenter on Workcenter.AreaIDOrganizational=Area.AreaID";
 
-
+                
                 cmd.CommandText = sql;
                 cmd.Connection = con;
                 using (SqlDataAdapter sda = new SqlDataAdapter(cmd))
@@ -614,6 +691,11 @@ public partial class Curing1 : System.Web.UI.Page
                     DataTable dt = new DataTable();
                     sda.Fill(dt);
                     int count = dt.Rows.Count;
+                    Session["Data1"] = "";
+                    Session["culoare"] = "";
+                    Session["Defect"] = "";
+                    Session["CLS"] = "";
+                    
                     if (count > 0)
                     {
                         name1 = dt.Rows[0]["GlobalName"].ToString();
@@ -707,7 +789,7 @@ public partial class Curing1 : System.Web.UI.Page
                     if (count > 9)
                     {
                         name10 = dt.Rows[9]["GlobalName"].ToString();
-                        Button10.Text = "Ce plm!";
+                        Button10.Text = name10;
                         Button10.Visible = true;
                     }
                     else
@@ -1417,5 +1499,43 @@ public partial class Curing1 : System.Web.UI.Page
                 }
             }
         }
+    }
+    protected void getSchimb()
+    {
+        string shiftcolor;
+        string constr = ConfigurationManager.ConnectionStrings["constr"].ConnectionString;
+        using (SqlConnection con = new SqlConnection(constr))
+        {
+            using (SqlCommand cmd1 = new SqlCommand())
+            {
+                string sql1 = @"SELECT [ShiftDate]
+                      ,[ShiftID]
+                      ,[ShiftColor]
+                      FROM[tias067a].[NewERT].[dbo].[ShiftCalendar]
+                      where convert(varchar, ShiftDate,23) = convert(varchar, getdate(), 23)
+                      and ShiftID = (case when convert(varchar, getdate(),24) between '07:00:00' and '15:00:00' then '1'
+                      when convert(varchar, getdate(),24) between '15:00:00' and '23:00:00' then '2'
+                      when convert(varchar, getdate(),24) between '23:00:00' and '23:59:59' then '3'
+                      when convert(varchar, getdate(),24) between '00:00:00' and '07:00:00' then '3' end)";
+                cmd1.CommandText = sql1;
+                cmd1.Connection = con;
+                using (SqlDataAdapter sda = new SqlDataAdapter(cmd1))
+                {
+                    DataTable dt = new DataTable();
+                    sda.Fill(dt);
+                    shiftcolor = Convert.ToString(dt.Rows[0]["ShiftColor"]);
+                    Session["Schimb"] = shiftcolor;
+                }
+
+            }
+        }
+    }
+    protected void Logout(object sender,EventArgs e)
+    {
+        Response.Redirect("Default.aspx");
+    }
+    protected void Refresh1(object sender,EventArgs e)
+    {
+        Response.Redirect("Curing1.aspx");
     }
 }
