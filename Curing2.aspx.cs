@@ -19,7 +19,7 @@ public partial class Curing2 : System.Web.UI.Page
     public string name51, name52, name53, name54, name55, name56, name57, name58, name59, name60;
     public string name61, name62, name63, name64, name65, name66, name67, name68, name69, name70;
     public string name71, name72, name73, name74, name75, name76, name77, name78, name79, name80;
-    int j;
+    int j = 0;
     protected void Page_Load(object sender, EventArgs e)
     {
         GetData();

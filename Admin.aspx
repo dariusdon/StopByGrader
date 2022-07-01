@@ -26,7 +26,27 @@
           </asp:GridView>
             <br />
             <br />
-            <asp:Button style="margin-left:47%" ID="Button1" Width="150px" Font-Size="23px" ForeColor="Red" runat="server" Text="Delogare" OnClick="Logout" />
+             <p style="margin-top:20px;margin-left:100px">
+                <asp:Label ID="Label6" ForeColor="Orange" Font-Size="20px" runat="server" Text="Raport Per Material"></asp:Label>
+                <br/>
+                <asp:Label ID="Label7" ForeColor="Orange" Font-Size="20px" runat="server" Text="De la Data Si Ora:"></asp:Label>
+               &nbsp;&nbsp;
+               <asp:TextBox ID="TextBox5" TextMode="Date"  Width="150px"  runat="server"></asp:TextBox>
+                &nbsp;&nbsp;
+                 <asp:TextBox ID="TextBox6" TextMode="Time"  Width="150px"  runat="server"></asp:TextBox>
+                &nbsp;&nbsp;
+                <asp:Label ID="Label8" ForeColor="Orange" Font-Size="20px" runat="server" Text="Pana la Data Si Ora:"></asp:Label>
+                 &nbsp;&nbsp;
+               <asp:TextBox ID="TextBox7" TextMode="Date"  Width="150px"  runat="server"></asp:TextBox>
+                  &nbsp;&nbsp;
+                 <asp:TextBox ID="TextBox8" TextMode="Time" Width="150px"  runat="server"></asp:TextBox>
+                     &nbsp;&nbsp;
+                  <asp:Button  ID="Button2" Font-Size="20px" ForeColor="Green" runat="server" Text="Genereaza Raport" OnClick="generateCSV"/>
+            <br />
+            <br />
+            <br />
+            <br />
+            <asp:Button style="margin-left:44%" ID="Button1" Width="150px" Font-Size="23px" ForeColor="Red" runat="server" Text="Delogare" OnClick="Logout" />
         </div>
     </form>
 </body>

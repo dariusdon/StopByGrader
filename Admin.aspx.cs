@@ -22,7 +22,19 @@ public partial class Admin : System.Web.UI.Page
         {
             using (SqlCommand cmd = new SqlCommand())
             {
-                string sql = @"Select *from dbo.StopByGrader order by DataOperatie desc";
+                string sql = @"Select [Barcode]
+           ,[DataAparitiei]
+           ,[AnomalyCode]
+           ,[CodCuloare]
+           ,[Cavitate]
+           ,[Defect]
+           ,[CLS]
+           ,[DataOperatie]
+           ,[Descriere]
+           ,[Operator]
+           ,[Schimb]
+           
+from dbo.StopByGrader order by DataOperatie desc";
 
                 cmd.CommandText = sql;
                 cmd.Connection = con;
@@ -86,4 +98,52 @@ public partial class Admin : System.Web.UI.Page
     {
         Response.Redirect("Default.aspx");
     }
-}
+
+    protected void generateCSV(object sender,EventArgs e)
+    {
+            string date1 = Convert.ToDateTime(TextBox5.Text).ToString("yyyy-MM-dd");
+            string date2 = Convert.ToDateTime(TextBox7.Text).ToString("yyyy-MM-dd");
+            string time1 = Convert.ToDateTime(TextBox6.Text).ToString("h:mm:ss tt");
+            string time2 = Convert.ToDateTime(TextBox8.Text).ToString("h:mm:ss tt");
+
+            string finaldate1 = date1 + " " + time1;
+            string finaldate2 = date2 + " " + time2;
+            string stop = ConfigurationManager.ConnectionStrings["stop"].ConnectionString;
+            using (SqlConnection con = new SqlConnection(stop))
+            {
+                using (SqlCommand cmd = new SqlCommand())
+                {
+               string sql = @"Select [Barcode]
+               ,[DataAparitiei]
+               ,[AnomalyCode]
+               ,[CodCuloare]
+               ,[Cavitate]
+               ,[Defect]
+               ,[CLS]
+               ,[DataOperatie]
+               ,[Descriere]
+               ,[Operator]
+               ,[Schimb]
+           
+                from dbo.StopByGrader
+                where DataOperatie between '"+finaldate1+"' and '"+finaldate2+"' order by DataOperatie desc";
+
+
+
+                cmd.CommandText = sql;
+                    cmd.Connection = con;
+                    using (SqlDataAdapter sda = new SqlDataAdapter(cmd))
+                    {
+                        DataTable dt = new DataTable();
+                        sda.Fill(dt);
+                        GridView1.AllowPaging = true;
+                        GridView1.DataSource = dt;
+                        GridView1.DataBind();
+                        ToCSV(dt, "D:\\ShiftLeaderReaction\\1.csv");
+                        Response.Redirect("http://10.202.80.13/ShiftLeaderReaction/File/1.csv");
+
+                    }
+                }
+            }
+        }
+    }
